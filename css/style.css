@@ -1,0 +1,158 @@
+
+/* common */
+body{
+    background-image: url('../images/bg-image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+nav{
+    background-color: white;
+}
+h4{
+    margin: auto;
+    padding: auto;
+}1
+    list-style-type:none;
+}
+.nav-pills{
+    background-color: grey;
+}
+.nav-link{
+    color: white;
+    background-color: grey;
+}
+.nav-link:hover{
+    color: orange;
+}
+
+.nav-pills .nav-link.active{
+    color: white;
+    background-color: orange;
+}
+
+#checkout-box{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    position: fixed;
+    top:60%;
+    right: 0;
+    z-index: 99;
+}
+/* end common */
+
+/* nav */
+.container-fluid>a>img{
+    height: 40px;
+}
+/* end nav */
+
+/* main */
+.menu-options-mbl{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+
+.menu-options-mbl>ul>li{
+    height: 80px;
+    width: 80px;
+}
+
+.menu-options-mbl>ul>li>a>i{
+    padding: auto;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    border-radius: 30%;
+    background-color: orange;
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+.menu:hover{
+    color: grey;
+}
+
+#v-pills-tabContent{
+    width: 100% !important;
+}
+
+.options>img{
+    height: 150px;
+}
+
+/* end main */
+.option-img>img{
+    max-height: 300px;
+}
+
+/******************************************************************************/
+/******************************** laptop **************************************/
+/******************************************************************************/
+@media screen and (min-width:1200px) {
+    .nav-pills{
+        font-size: large;
+    }
+
+    #main-nav{
+        height: 500px !important;
+    }
+
+    .options>img{
+        height: 150px;
+    }   
+}
+
+/******************************************************************************/
+/******************************** desktop **************************************/
+/******************************************************************************/
+@media screen and (min-width:1500px) {
+    .nav-pills{
+        font-size: large;
+    }
+
+    #main-nav{
+        height: 800px !important;
+    }
+
+    .options>img{
+        height: 170px;
+    }
+}
+
+/******************************************************************************/
+/******************************** desktop **************************************/
+/******************************************************************************/
+@media screen and (min-width:2000px) {
+    .nav-pills{
+        font-size: x-large;
+    }
+
+    #main-nav{
+        height: 1000px !important;
+    }
+
+    .options>img{
+        height: 250px;
+    }
+}
